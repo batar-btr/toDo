@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { log } from '../../funcs/funcs';
+// import { log } from '../../funcs/funcs';
 
 import AppHeader from '../app-header'
 import SearchPanel from '../search-panel'
@@ -9,7 +9,7 @@ import TodoList from '../todo-list'
 import ItemAddForm from '../item-add-form';
 
 import './app.css'
-console.log('Hello')
+
 export default class App extends Component {
 
     maxId = 100;
